@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "bkashjee.screenpolish",
+  "name": "ScreenPolish",
+  "version": "1.1.0",
+  "author": "Bikash Joshi",
+  "license": "MIT",
+  "description": "Start, pause and stop a ScreenPolish recording from the bar, with the elapsed time in front of you while it runs.",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "BarWidget.qml" },
+  "barWidget": {
+    "displayName": "ScreenPolish",
+    "category": "Media",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
